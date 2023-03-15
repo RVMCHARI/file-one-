@@ -1,0 +1,28 @@
+<input type = "text" class="form-control" onblur='getVal()" id="number" name = "number">
+
+
+function getVal(){
+  const number documnet.getElementById('number).value;
+  console.log(number)
+  alert(number)
+  ver serverData = {'number':number}
+  }
+  $ajax({
+  url:'/ticketnum',
+  method :"POST",
+  contentType:'application/json',
+  dataType:json,
+  success. function(response){
+  documnet.getElementById('Email').value = response['Email'];
+  documnet.getElementById('mobile').value = response['mobile'];
+  documnet.getElementById('address').value = response['address'];
+  }
+  });
+  }
+  
+  
+  
+  
+  data = request.get_json(silent=True,force=True)
+  data
+  
